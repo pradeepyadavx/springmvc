@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [28/Aug/2019:17:47:00 +0530] "GET /spring-mvc/login HTTP/1.1" 200 364 http-bio-8080-exec-1 158
+0:0:0:0:0:0:0:1 - - [28/Aug/2019:17:47:40 +0530] "POST /spring-mvc/login HTTP/1.1" 200 157 http-bio-8080-exec-3 91
+0:0:0:0:0:0:0:1 - - [28/Aug/2019:19:55:03 +0530] "GET /spring-mvc/list-todos HTTP/1.1" 200 477 http-bio-8080-exec-6 32
+0:0:0:0:0:0:0:1 - - [28/Aug/2019:20:16:01 +0530] "GET /spring-mvc/login HTTP/1.1" 200 364 http-bio-8080-exec-9 6
+0:0:0:0:0:0:0:1 - - [28/Aug/2019:20:16:03 +0530] "POST /spring-mvc/login HTTP/1.1" 200 254 http-bio-8080-exec-1 454
+0:0:0:0:0:0:0:1 - - [28/Aug/2019:20:16:05 +0530] "GET /spring-mvc/list-todos HTTP/1.1" 200 477 http-bio-8080-exec-1 5
+0:0:0:0:0:0:0:1 - - [28/Aug/2019:20:16:31 +0530] "GET /spring-mvc/list-todos HTTP/1.1" 200 477 http-bio-8080-exec-3 10

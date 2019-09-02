@@ -7,9 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-weclome :${name}  and password :${password} <br>
-
-Now you can Mange your todos <a href="/spring-mvc/list-todos?name=${name }"> Manage your todos here</a>
-
+HI ${name }  <br>
+Your Todos are: ${todos}
 </body>
 </html>

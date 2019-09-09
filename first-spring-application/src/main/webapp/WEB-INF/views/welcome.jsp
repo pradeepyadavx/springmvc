@@ -9,7 +9,7 @@
 <body>
 weclome :${name}  and password :${password} <br>
 
-Now you can Mange your todos <a href="/spring-mvc/list-todos?name=${name }"> Manage your todos here</a>
+Now you can Mange your todos <a href="/spring-mvc/list-todos"> Manage your todos here</a>
 
 </body>
 </html>

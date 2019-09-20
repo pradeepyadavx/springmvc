@@ -1,5 +1,7 @@
 package com.pradeep.springmvc.todo;
 
+import java.util.Date;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -20,6 +22,19 @@ public class ToDoController {
 		//modelMap.addAttribute("name",name);
 		modelMap.addAttribute("todos",service.reteriveTodos("pradeep"));
 		return "list-todos";
+	}
+	
+	@RequestMapping(value="/add-todo",method=RequestMethod.GET)
+	public String showTodoPage() {
+		return "todo";
+	}
+	
+	@RequestMapping(value="/add-todo",method=RequestMethod.POST)
+	public String addTodo(ModelMap modelMap,@RequestParam String desc) {
+		modelMap.clear();
+		System.out.println(desc);
+		service.addTodo("Pradep", desc, new Date(), false);
+		return "redirect:list-todos";
 	}
 	
 	

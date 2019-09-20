@@ -7,10 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-HI ${name }  <br>
-Your Todos are: ${todos}
-
-<br>
-<a class="button" href="/spring-mvc/add-todo">Add</a>
+<h1>Add To Do</h1>
+<form  action=""  method="Post">
+<input type="text" name="desc">
+<input type="submit" value="add">
+</form>
 </body>
 </html>

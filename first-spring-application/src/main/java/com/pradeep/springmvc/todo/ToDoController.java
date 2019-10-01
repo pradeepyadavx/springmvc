@@ -33,7 +33,7 @@ public class ToDoController {
 	public String addTodo(ModelMap modelMap,@RequestParam String desc) {
 		modelMap.clear();
 		System.out.println(desc);
-		service.addTodo("Pradep", desc, new Date(), false);
+		service.addTodo("pradeep", desc, new Date(), false);
 		return "redirect:list-todos";
 	}
 	

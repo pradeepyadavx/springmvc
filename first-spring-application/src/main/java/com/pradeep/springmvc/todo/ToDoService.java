@@ -23,7 +23,7 @@ public class ToDoService {
 	public void addTodo(String name,String desc,Date targetDate,boolean isDone) {
 		System.out.println("call come");
 		todos.add(new ToDo(++todoCount, name, desc, targetDate, isDone));
-		System.out.println(todos.toString());
+//		System.out.println(todos.toString());
 	}
 	
 	

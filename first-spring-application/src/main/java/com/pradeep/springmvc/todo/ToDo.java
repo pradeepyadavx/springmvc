@@ -2,13 +2,21 @@ package com.pradeep.springmvc.todo;
 
 import java.util.Date;
 
+import javax.validation.constraints.Size;
+
 public class ToDo {
 	
 	private int id;
 	private String user;
+	
+	@Size(min=0,message="Enter atleast 6 Characters.")
 	private String desc;
 	private Date targetDate;
 	private boolean isDone;
+	
+	public ToDo() {
+		
+	}
 	
 	
 	public ToDo(int id, String user, String desc, Date targetDate, boolean isDone) {

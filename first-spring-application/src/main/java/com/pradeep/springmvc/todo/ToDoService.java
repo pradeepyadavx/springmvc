@@ -46,5 +46,20 @@ public class ToDoService {
 			}
 		}
 	}
+	
+	public ToDo reteriveTodo(int id) {
+		for (ToDo toDo:todos) {
+			if (toDo.getId()==id) {
+				return toDo;
+			}
+		}
+	return null;
+	}
+	
+	public void updateTodo(ToDo todo) {
+		delteTodo(todo.getId());
+//		todos.remove(todo);
+		todos.add(todo);
+	}
 
 }
